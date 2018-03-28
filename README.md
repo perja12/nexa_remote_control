@@ -35,6 +35,8 @@ See the hardware folder for schematic and board layout files from Eagle. And als
 
 ![Board](https://raw.githubusercontent.com/perja12/nexa_remote_control/master/hardware/board.jpg)
 
+The RF module used here is https://www.aliexpress.com/item/10pcs-lot-ASK-RF-module-433mhz-transmitter-module/32238392004.html
+
 # Resources
 * Nexa devices: https://www.nexa.se/vara-produkter/system-nexa/mottagare-paav
 * Pin change interrupt on ATtiny85:
