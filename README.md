@@ -45,3 +45,7 @@ The RF module used here is https://www.aliexpress.com/item/10pcs-lot-ASK-RF-modu
     * http://gammon.com.au/interrupts
 * ATtiny85 datasheet: http://www.atmel.com/images/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf
 * NexaCtrl library: https://github.com/calle-gunnarsson/NexaCtrl
+
+# Questions or found a bug?
+
+Please raise a new issue in github or a new pull request if you have some code changes.
