@@ -46,6 +46,10 @@ The RF module used here is https://www.aliexpress.com/item/10pcs-lot-ASK-RF-modu
 * ATtiny85 datasheet: http://www.atmel.com/images/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf
 * NexaCtrl library: https://github.com/calle-gunnarsson/NexaCtrl
 
+# How to pair with a Nexa device
+
+In order to use the controller with a device (like a plug-in receiver) you need to either find the existing id of your device and use that in `CONTROLLER_ID`. Or you can configure the device to listen for the id set in `CONTROLLER_ID` (self learning). Disconnect the device from mains and then plug it back in. Then, within 5 seconds, press the "on" button on the controller. You should then hear the relay switching a couple of times. If nothing happens, the device memory can be full and you have to reset it with a "group off" command during that 5 seconds start up. You probably have to do this with a paired remote. Consult the user manual of the device.
+
 # Questions or found a bug?
 
-Please raise a new issue in github or a new pull request if you have some code changes.
+Please raise an [issue](https://github.com/perja12/nexa_remote_control/issues/new) or a new [pull request](https://github.com/perja12/nexa_remote_control/pulls) if you have some code changes.
