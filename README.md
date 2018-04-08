@@ -4,6 +4,8 @@ Hardware and firmware for creating custom Nexa remote control. This project uses
 
 One of the goals was to minimize the power usage so that it can run from a battery like CR2032.
 
+![Final circuit](https://raw.githubusercontent.com/perja12/nexa_remote_control/master/hardware/final_circuit.jpg | width=250)
+
 ## Installing NexaCtrl library
 
 The firmware uses the NexaCtrl library and this be installed in your Arduino folder:
